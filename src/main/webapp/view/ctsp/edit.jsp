@@ -23,7 +23,17 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="/ban-hang">Home</a>
-                <a class="nav-link" href="/sanpham/index">Sản phẩm</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sản phẩm </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/sanpham/index">Sản Phẩm</a></li>
+                        <li><a class="dropdown-item" href="/mausac/index">Màu sắc</a></li>
+                        <li><a class="dropdown-item" href="/size/index">Kích thước</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/danhmuc/index">Danh mục</a></li>
+                    </ul>
+                </li>
                 <a class="nav-link" href="/khachhang/index">Khách Hàng</a>
             </div>
         </div>
